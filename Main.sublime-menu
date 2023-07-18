@@ -1,0 +1,23 @@
+[{
+	"id": "preferences",
+	"children":
+	[{
+		"caption": "Package Settings",
+		"id": "package-settings",
+		"children":
+		[{
+			"caption": "Cat Compare",
+			"children":
+			[{
+				"caption": "Settings – Default",
+				"command": "open_file",
+				"args": { "file": "${packages}/CatCompare/CatCompare.sublime-settings" }
+			},
+			{
+				"caption": "Settings – User",
+				"command": "open_file",
+				"args": { "file": "${packages}/User/CatCompare.sublime-settings" }
+			}]
+		}]
+	}]
+}]

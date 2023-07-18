@@ -1,0 +1,7 @@
+[
+	{ "caption": "-" },
+	{ "caption": "Compare with...", "command": "cat_compare" },
+	{ "caption": "Mark selection for comparison", "command": "cat_mark_sel" },
+	{ "caption": "Compare selection", "command": "cat_compare", "args": { "compare_selections": true } },
+	{ "caption": "-" }
+]
