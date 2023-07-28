@@ -1,19 +1,19 @@
 [
     {
-        "caption": "cat-compare: Compare with...",
+        "caption": "Cat Compare: Compare with...",
         "command": "cat_compare"
     },
     {
-        "caption": "cat-compare: Mark selection for comparison",
+        "caption": "Cat Compare: Mark selection for comparison",
         "command": "cat_mark_sel"
     },
     {
-        "caption": "cat-compare: Compare selections",
+        "caption": "Cat Compare: Compare selections",
         "command": "cat_compare",
         "args": { "compare_selections": true }
     },
     {
-        "caption": "cat-compare: Select compared text...",
+        "caption": "Cat Compare: Select compared text...",
         "command": "cat_select_text"
     }
 ]
