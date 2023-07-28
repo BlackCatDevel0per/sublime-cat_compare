@@ -1,4 +1,0 @@
-[
-	{ "keys": ["alt+n"], "command": "cat_next_diff" },
-	{ "keys": ["alt+p"], "command": "cat_prev_diff" }
-]

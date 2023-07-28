@@ -1,4 +1,7 @@
 {
+	// Show command in view context menu (right-click)
+	"show_in_context_menu": true,
+
 	// show a popup after comparison counting # of lines added/removed/total
 	"line_count_popup": true,
 

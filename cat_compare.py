@@ -94,6 +94,7 @@ class LayoutPreserver(sublime_plugin.EventListener):
 				nonCompareWin = w
 		return {'compare': numCompare, 'notCompare': numNotCompare, 'nonCompareWin': nonCompareWin}
 
+
 	def on_pre_close(self, view):
 		# if one comparison view is closed, close the other
 		if view.settings().get('is_compare'):
@@ -141,6 +142,10 @@ class MarkSelCommand(sublime_plugin.TextCommand):
 		return 'cat_mark_sel'
 
 
+	def is_visible(self) -> bool:
+		return plugin_settings().get('show_in_context_menu', False)
+
+
 	def run(self, edit):
 		global markedSelection
 
@@ -186,6 +191,10 @@ class CompareFilesCommand(sublime_plugin.ApplicationCommand):
 class CompareCommand(sublime_plugin.TextCommand):
 	def name(self):
 		return 'cat_compare'
+
+
+	def is_visible(self) -> bool:
+		return plugin_settings().get('show_in_context_menu', False)
 
 
 	def generate_colour_scheme(self, view, generate=True):

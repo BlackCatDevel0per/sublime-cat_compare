@@ -15,5 +15,13 @@
     {
         "caption": "Cat Compare: Select compared text...",
         "command": "cat_select_text"
+    },
+    {
+        "caption": "Cat Compare: Move to next diff",
+        "command": "cat_next_diff"
+    },
+    {
+        "caption": "Cat Compare: Move to previous diff",
+        "command": "cat_prev_diff"
     }
 ]
